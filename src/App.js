@@ -2,12 +2,17 @@ import ArrayComponent from './components/ArrayComponent';
 import AsyncComponent from './components/AsyncComponent';
 import DebounceComponent from './components/DebounceComponent';
 import DeepCompareEffectComponent from './components/DeepCompareEffectComponent';
+import EffectOnceComponent from './components/EffectOnceComponent';
 import EventListenerComponent from './components/EventListenerComponent';
 import FetchComponent from './components/FetchComponent';
+import GeolocationComponent from './components/GeolocationComponent';
+import MediaQueryComponent from './components/MediaQueryComponent';
 import OnScreenComponent from './components/OnScreenComponent';
 import PreviousComponent from './components/PreviousComponent';
 import ScriptComponent from './components/ScriptComponent';
+import SizeComponent from './components/SizeComponent';
 import StateWithHistoryComponent from './components/StateWithHistoryComponent';
+import StateWithValidationComponent from './components/StateWithValidationComponent';
 import StorageComponent from './components/StorageComponent';
 import TimeoutComponent from './components/TimeoutComponent';
 import ToggleComponent from './components/ToggleComponent';
@@ -92,6 +97,31 @@ function App() {
       <hr />
       <h3>Window Size Hook</h3>
       <WindowSizeComponent />
+      <hr />
+
+      <hr />
+      <h3>Media Query Hook</h3>
+      <MediaQueryComponent />
+      <hr />
+
+      <hr />
+      <h3>Geolocation Hook</h3>
+      <GeolocationComponent />
+      <hr />
+
+      <hr />
+      <h3>State With Validation Hook</h3>
+      <StateWithValidationComponent />
+      <hr />
+
+      <hr />
+      <h3>Size Hook</h3>
+      <SizeComponent />
+      <hr />
+
+      <hr />
+      <h3>Effect Once Hook</h3>
+      <EffectOnceComponent />
       <hr />
     </div>
   );
