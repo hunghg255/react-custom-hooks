@@ -1,5 +1,7 @@
 import ArrayComponent from './components/ArrayComponent';
 import AsyncComponent from './components/AsyncComponent';
+import ClickOutsideComponent from './components/ClickOutsideComponent';
+import DarkModeComponent from './components/DarkModeComponent';
 import DebounceComponent from './components/DebounceComponent';
 import DeepCompareEffectComponent from './components/DeepCompareEffectComponent';
 import EffectOnceComponent from './components/EffectOnceComponent';
@@ -18,6 +20,11 @@ import TimeoutComponent from './components/TimeoutComponent';
 import ToggleComponent from './components/ToggleComponent';
 import UpdateEffectComponent from './components/UpdateEffectComponent';
 import WindowSizeComponent from './components/WindowSizeComponent';
+
+import './app.css';
+import CopyToClipboardComponent from './components/CopyToClipboardComponent';
+import CookieComponent from './components/CookieComponent';
+import TranslationComponent from './components/TranslationComponent';
 
 function App() {
   return (
@@ -122,6 +129,31 @@ function App() {
       <hr />
       <h3>Effect Once Hook</h3>
       <EffectOnceComponent />
+      <hr />
+
+      <hr />
+      <h3>Click Outside Hook</h3>
+      <ClickOutsideComponent />
+      <hr />
+
+      <hr />
+      <h3>Dark Mode Hook</h3>
+      <DarkModeComponent />
+      <hr />
+
+      <hr />
+      <h3>Copy Clipboard Hook</h3>
+      <CopyToClipboardComponent />
+      <hr />
+
+      <hr />
+      <h3>Cookie Hook</h3>
+      <CookieComponent />
+      <hr />
+
+      <hr />
+      <h3>Translate Hook</h3>
+      <TranslationComponent />
       <hr />
     </div>
   );
