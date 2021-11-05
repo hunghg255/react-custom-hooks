@@ -25,6 +25,11 @@ import './app.css';
 import CopyToClipboardComponent from './components/CopyToClipboardComponent';
 import CookieComponent from './components/CookieComponent';
 import TranslationComponent from './components/TranslationComponent';
+import OnlineStatusComponent from './components/OnlineStatusComponent';
+import RenderCountComponent from './components/RenderCountComponent';
+import DebugInformationComponent from './components/DebugInformationComponent';
+import HoverComponent from './components/HoverComponent';
+import LongPressComponent from './components/LongPressComponent';
 
 function App() {
   return (
@@ -154,6 +159,31 @@ function App() {
       <hr />
       <h3>Translate Hook</h3>
       <TranslationComponent />
+      <hr />
+
+      <hr />
+      <h3>Online Status Hook</h3>
+      <OnlineStatusComponent />
+      <hr />
+
+      <hr />
+      <h3>Render Count Hook</h3>
+      <RenderCountComponent />
+      <hr />
+
+      <hr />
+      <h3>Debug Information Hook</h3>
+      <DebugInformationComponent />
+      <hr />
+
+      <hr />
+      <h3>Hover Hook</h3>
+      <HoverComponent />
+      <hr />
+
+      <hr />
+      <h3>Long Press Hook</h3>
+      <LongPressComponent />
       <hr />
     </div>
   );
