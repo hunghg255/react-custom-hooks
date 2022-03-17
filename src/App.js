@@ -30,6 +30,7 @@ import RenderCountComponent from './components/RenderCountComponent';
 import DebugInformationComponent from './components/DebugInformationComponent';
 import HoverComponent from './components/HoverComponent';
 import LongPressComponent from './components/LongPressComponent';
+import DeepEffectComponent from './components/DeepEffectComponent';
 
 function App() {
   return (
@@ -184,6 +185,11 @@ function App() {
       <hr />
       <h3>Long Press Hook</h3>
       <LongPressComponent />
+      <hr />
+
+      <hr />
+      <h3>Deep Effect Hook</h3>
+      <DeepEffectComponent />
       <hr />
     </div>
   );

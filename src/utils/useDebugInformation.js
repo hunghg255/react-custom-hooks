@@ -27,7 +27,6 @@ const useDebugInformation = (componentName, props) => {
   useEffect(() => {
     previousProps.current = props;
     lastRenderTimestamp.current = Date.now();
-    console.log('[debug-info]', componentName, info);
   });
 
   return info;
