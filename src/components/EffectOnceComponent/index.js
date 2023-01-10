@@ -4,7 +4,7 @@ import { useEffectOnce } from '../../utils/useEffectOnce';
 const EffectOnceComponent = () => {
   const [count, setCount] = useState(0);
 
-  useEffectOnce(() => alert('Hi'));
+  useEffectOnce(() => alert('Effect once'));
 
   return (
     <>

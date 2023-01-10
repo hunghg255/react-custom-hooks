@@ -38,159 +38,158 @@ function App() {
       <h1>React Custom Hooks</h1>
 
       <hr />
-      <h3>Toggle Hook</h3>
+      <h3>useToggle</h3>
       <ToggleComponent />
-      <hr />
 
-      <hr />
-      <h3>Timeout Hook</h3>
+      <br />
+
+      <h3>useTimeout</h3>
       <TimeoutComponent />
-      <hr />
 
-      <hr />
-      <h3>Debounce Hook</h3>
+      <br />
+
+      <h3>useDebounce</h3>
       <DebounceComponent />
-      <hr />
 
-      <hr />
-      <h3>Update Effect Hook</h3>
+      <br />
+
+      <h3>useUpdateEffect</h3>
       <UpdateEffectComponent />
-      <hr />
 
-      <hr />
-      <h3>Array Hook</h3>
+      <br />
+
+      <h3>useArray</h3>
       <ArrayComponent />
-      <hr />
 
-      <hr />
-      <h3>Previous Hook</h3>
+      <br />
+
+      <h3>usePrevious</h3>
       <PreviousComponent />
-      <hr />
 
-      <hr />
-      <h3>State With History Hook</h3>
+      <br />
+
+      <h3>useStateWithHistory</h3>
       <StateWithHistoryComponent />
-      <hr />
 
-      <hr />
-      <h3>Storage Hook</h3>
+      <br />
+
+      <h3>useSessionStorage / useLocalStorage</h3>
       <StorageComponent />
-      <hr />
 
-      <hr />
-      <h3>Async Hook</h3>
+      <br />
+
+      <h3>useAsync</h3>
       <AsyncComponent />
-      <hr />
 
-      <hr />
-      <h3>Fetch Hook</h3>
+      <br />
+
+      <h3>useFetch</h3>
       <FetchComponent />
-      <hr />
 
-      <hr />
-      <h3>Script Hook</h3>
+      <br />
+
+      <h3>useScript</h3>
       <ScriptComponent />
-      <hr />
 
-      <hr />
-      <h3>Deep Compare Hook</h3>
+      <br />
+
+      <h3>useDeepCompareEffect</h3>
       <DeepCompareEffectComponent />
-      <hr />
 
-      <hr />
-      <h3>Event Listener Hook</h3>
+      <br />
+
+      <h3>useEventListener</h3>
       <EventListenerComponent />
-      <hr />
 
-      <hr />
-      <h3>On Screen Hook</h3>
+      <br />
+
+      <h3>useOnScreen</h3>
       <OnScreenComponent />
-      <hr />
 
-      <hr />
-      <h3>Window Size Hook</h3>
+      <br />
+
+      <h3>useWindowSize</h3>
       <WindowSizeComponent />
-      <hr />
 
-      <hr />
-      <h3>Media Query Hook</h3>
+      <br />
+
+      <h3>useMediaQuery</h3>
       <MediaQueryComponent />
-      <hr />
 
-      <hr />
-      <h3>Geolocation Hook</h3>
+      <br />
+
+      <h3>useGeolocation</h3>
       <GeolocationComponent />
-      <hr />
 
-      <hr />
-      <h3>State With Validation Hook</h3>
+      <br />
+
+      <h3>useStateWithValidation</h3>
       <StateWithValidationComponent />
-      <hr />
 
-      <hr />
-      <h3>Size Hook</h3>
+      <br />
+
+      <h3>useSize</h3>
       <SizeComponent />
-      <hr />
 
-      <hr />
-      <h3>Effect Once Hook</h3>
+      <br />
+
+      <h3>useEffectOnce</h3>
       <EffectOnceComponent />
-      <hr />
 
-      <hr />
-      <h3>Click Outside Hook</h3>
+      <br />
+
+      <h3>useClickOutside</h3>
       <ClickOutsideComponent />
-      <hr />
 
-      <hr />
-      <h3>Dark Mode Hook</h3>
+      <br />
+
+      <h3>useDarkMode</h3>
       <DarkModeComponent />
-      <hr />
 
-      <hr />
-      <h3>Copy Clipboard Hook</h3>
+      <br />
+
+      <h3>useCopyToClipboard</h3>
       <CopyToClipboardComponent />
-      <hr />
 
-      <hr />
-      <h3>Cookie Hook</h3>
+      <br />
+
+      <h3>useCookie</h3>
       <CookieComponent />
-      <hr />
 
-      <hr />
-      <h3>Translate Hook</h3>
+      <br />
+
+      <h3>useTranslation</h3>
       <TranslationComponent />
-      <hr />
 
-      <hr />
-      <h3>Online Status Hook</h3>
+      <br />
+
+      <h3>useOnlineStatus</h3>
       <OnlineStatusComponent />
-      <hr />
 
-      <hr />
-      <h3>Render Count Hook</h3>
+      <br />
+
+      <h3>useRenderCount</h3>
       <RenderCountComponent />
-      <hr />
 
-      <hr />
-      <h3>Debug Information Hook</h3>
+      <br />
+
+      <h3>useDebugInformation</h3>
       <DebugInformationComponent />
-      <hr />
 
-      <hr />
-      <h3>Hover Hook</h3>
+      <br />
+
+      <h3>useHover</h3>
       <HoverComponent />
-      <hr />
 
-      <hr />
-      <h3>Long Press Hook</h3>
+      <br />
+
+      <h3>useLongPress</h3>
       <LongPressComponent />
-      <hr />
 
-      <hr />
-      <h3>Deep Effect Hook</h3>
+      <br />
+
+      <h3>useDeepEffect</h3>
       <DeepEffectComponent />
-      <hr />
     </div>
   );
 }

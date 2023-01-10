@@ -1,3 +1,7 @@
+body {
+  padding: 20px 50px;
+}
+
 body.dark-mode {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
