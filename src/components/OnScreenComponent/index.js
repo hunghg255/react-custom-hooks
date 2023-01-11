@@ -7,9 +7,9 @@ const OnScreenComponent = () => {
 
   return (
     <>
-      <h1>Header</h1>
-      <h2 ref={refHeaderTwo}>Header 2 {visible && '(Visible)'}</h2>
-      <div>Lorem ipsum dolor sit amet, consectetur adip</div>
+      <h2 ref={refHeaderTwo}>
+        {visible ? 'Element Visible' : 'Element Hidden'}
+      </h2>
     </>
   );
 };
