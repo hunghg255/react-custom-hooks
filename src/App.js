@@ -36,6 +36,13 @@ function App() {
   return (
     <div className='App'>
       <h1>React Custom Hooks</h1>
+      <a
+        href='https://github.com/hunghg255/react-custom-hooks'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        Github
+      </a>
 
       <hr />
       <h3>useToggle</h3>
