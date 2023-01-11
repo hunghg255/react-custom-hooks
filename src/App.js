@@ -20,8 +20,6 @@ import TimeoutComponent from './components/TimeoutComponent';
 import ToggleComponent from './components/ToggleComponent';
 import UpdateEffectComponent from './components/UpdateEffectComponent';
 import WindowSizeComponent from './components/WindowSizeComponent';
-
-import './app.css';
 import CopyToClipboardComponent from './components/CopyToClipboardComponent';
 import CookieComponent from './components/CookieComponent';
 import TranslationComponent from './components/TranslationComponent';
@@ -31,6 +29,8 @@ import DebugInformationComponent from './components/DebugInformationComponent';
 import HoverComponent from './components/HoverComponent';
 import LongPressComponent from './components/LongPressComponent';
 import DeepEffectComponent from './components/DeepEffectComponent';
+
+import './app.css';
 
 function App() {
   return (

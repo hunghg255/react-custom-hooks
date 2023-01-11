@@ -2,8 +2,7 @@ import { useState } from 'react';
 import { useStateWithHistory } from '../../hooks/useStateWithHistory';
 
 const StateWithHistoryComponent = () => {
-  const [count, setCount, { history, pointer, back, forward, go }] =
-    useStateWithHistory(1);
+  const [count, setCount, { history, pointer, back, forward, go }] = useStateWithHistory(1);
   const [name, setName] = useState('Join');
 
   return (

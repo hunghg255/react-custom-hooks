@@ -12,11 +12,7 @@ const useArray = (defaultValue) => {
   };
 
   const update = (idx, newElement) => {
-    setArray((a) => [
-      ...a.slice(0, idx),
-      newElement,
-      ...a.slice(idx + 1, a.length - 1),
-    ]);
+    setArray((a) => [...a.slice(0, idx), newElement, ...a.slice(idx + 1, a.length - 1)]);
   };
 
   const remove = (idx) => {

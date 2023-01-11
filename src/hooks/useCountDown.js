@@ -32,12 +32,8 @@ const useCountDown = ({ startDate, endDate, onFinish }) => {
       }
 
       refDays.current = Math.floor(difference / (1000 * 60 * 60 * 24));
-      refHours.current = Math.floor(
-        (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-      );
-      refMinutes.current = Math.floor(
-        (difference % (1000 * 60 * 60)) / (1000 * 60)
-      );
+      refHours.current = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      refMinutes.current = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
       const s = Math.ceil((difference % (1000 * 60)) / 1000);
       refDays.current = refDays.current < 0 ? 0 : refDays.current;
       refHours.current = refHours.current < 0 ? 0 : refHours.current;

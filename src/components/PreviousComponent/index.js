@@ -13,9 +13,7 @@ const PreviousComponent = () => {
       </div>
       <div>{name}</div>
 
-      <button onClick={() => setCount((currentCount) => currentCount + 1)}>
-        Increment
-      </button>
+      <button onClick={() => setCount((currentCount) => currentCount + 1)}>Increment</button>
       <button onClick={() => setName('Join')}>Change name</button>
     </>
   );

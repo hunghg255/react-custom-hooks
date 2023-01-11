@@ -24,7 +24,7 @@ const useStateWithHistory = (defaultValue, { capacity = 10 } = {}) => {
         setValue(resolvedValue);
       }
     },
-    [capacity, value]
+    [capacity, value],
   );
 
   const back = useCallback(() => {

@@ -11,8 +11,7 @@ const DeepCompareEffectComponent = () => {
   const person = useMemo(() => ({ age: age, name: 'Kyle' }), [age]);
 
   useEffect(() => {
-    refUseEffectCount.current.textContent =
-      parseInt(refUseEffectCount.current.textContent) + 1;
+    refUseEffectCount.current.textContent = parseInt(refUseEffectCount.current.textContent) + 1;
   }, [person]);
 
   useDeepCompareEffect(() => {
@@ -32,9 +31,7 @@ const DeepCompareEffectComponent = () => {
       <div>Other Count: {otherCount}</div>
       <div>{JSON.stringify(person)}</div>
       <button onClick={() => setAge((prev) => prev + 1)}>Increment Age</button>
-      <button onClick={() => setOtherCount((prev) => prev + 1)}>
-        Increment Other Count
-      </button>
+      <button onClick={() => setOtherCount((prev) => prev + 1)}>Increment Other Count</button>
     </>
   );
 };

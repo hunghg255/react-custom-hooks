@@ -15,7 +15,7 @@ const useMediaQuery = (mediaQuery) => {
     debounce((matches) => {
       if (matches !== isMatch) setIsMatch(matches);
     }, 500),
-    [isMatch]
+    [isMatch],
   );
 
   useEventListener('resize', () => {

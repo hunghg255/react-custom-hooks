@@ -9,18 +9,13 @@ const getNestedTranslation = (language, keys) => {
 
 const useTranslation = () => {
   const [language, setLanguage] = useLocalStorage('language', 'en');
-  const [fallbackLanguage, setFallbackLanguage] = useLocalStorage(
-    'fallbackLanguage',
-    'en'
-  );
+  const [fallbackLanguage, setFallbackLanguage] = useLocalStorage('fallbackLanguage', 'en');
 
   const translate = (key) => {
     const keys = key.split('.');
 
     return (
-      getNestedTranslation(language, keys) ??
-      getNestedTranslation(fallbackLanguage, keys) ??
-      key
+      getNestedTranslation(language, keys) ?? getNestedTranslation(fallbackLanguage, keys) ?? key
     );
   };
 

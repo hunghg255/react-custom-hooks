@@ -14,7 +14,7 @@ const useCookie = (name, defaultValue) => {
       Cookies.set(name, newValue, options);
       setValue(newValue);
     },
-    [name]
+    [name],
   );
 
   const deleteCookie = useCallback(() => {

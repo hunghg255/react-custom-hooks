@@ -16,17 +16,9 @@ const useGeolocation = (options) => {
       setError(e);
     };
 
-    navigator.geolocation.getCurrentPosition(
-      successHandler,
-      errorHandler,
-      options
-    );
+    navigator.geolocation.getCurrentPosition(successHandler, errorHandler, options);
 
-    const id = navigator.geolocation.watchPosition(
-      successHandler,
-      errorHandler,
-      options
-    );
+    const id = navigator.geolocation.watchPosition(successHandler, errorHandler, options);
 
     return () => navigator.geolocation.clearWatch(id);
   }, [options]);

@@ -8,7 +8,7 @@ const FetchComponent = () => {
   const { loading, error, value } = useFetch(
     `https://jsonplaceholder.typicode.com/todos/${id}`,
     {},
-    [id]
+    [id],
   );
 
   return (
