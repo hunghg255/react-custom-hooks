@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { useSize } from '../../utils/useSize';
+import { useSize } from '../../hooks/useSize';
 
 const SizeComponent = () => {
   const ref = useRef();

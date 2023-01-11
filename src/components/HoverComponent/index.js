@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { useHover } from '../../utils/useHover';
+import { useHover } from '../../hooks/useHover';
 
 const HoverComponent = () => {
   const elementRef = useRef();

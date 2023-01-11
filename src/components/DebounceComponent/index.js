@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useDebounce } from '../../utils/useDebounce';
+import { useDebounce } from '../../hooks/useDebounce';
 
 export default function DebounceComponent() {
   const [count, setCount] = useState(10);

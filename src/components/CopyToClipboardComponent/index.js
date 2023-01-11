@@ -1,4 +1,4 @@
-import { useCopyToClipboard } from '../../utils/useCopyToClipboard';
+import { useCopyToClipboard } from '../../hooks/useCopyToClipboard';
 
 const CopyToClipboardComponent = () => {
   const [copyToClipboard, { success }] = useCopyToClipboard();

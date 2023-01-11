@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { useClickOutside } from '../../utils/useClickOutside';
+import { useClickOutside } from '../../hooks/useClickOutside';
 
 const ClickOutsideComponent = () => {
   const [open, setOpen] = useState(false);

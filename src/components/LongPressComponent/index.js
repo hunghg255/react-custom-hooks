@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { useLongPress } from '../../utils/useLongPress';
+import { useLongPress } from '../../hooks/useLongPress';
 
 const LongPressComponent = () => {
   const elementRef = useRef();

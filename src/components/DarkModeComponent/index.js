@@ -1,4 +1,4 @@
-import { useDarkMode } from '../../utils/useDarkMode';
+import { useDarkMode } from '../../hooks/useDarkMode';
 
 const DarkModeComponent = () => {
   const [darkMode, setDarkMode] = useDarkMode();

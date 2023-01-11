@@ -1,4 +1,4 @@
-import { useWindowSize } from '../../utils/useWindowSize';
+import { useWindowSize } from '../../hooks/useWindowSize';
 
 const WindowSizeComponent = () => {
   const { width, height } = useWindowSize();

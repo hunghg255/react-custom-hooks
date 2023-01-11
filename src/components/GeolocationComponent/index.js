@@ -1,4 +1,4 @@
-import { useGeolocation } from '../../utils/useGeolocation';
+import { useGeolocation } from '../../hooks/useGeolocation';
 
 const GeolocationComponent = () => {
   const {

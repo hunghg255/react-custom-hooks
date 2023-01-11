@@ -1,4 +1,4 @@
-import { useScript } from '../../utils/useScript';
+import { useScript } from '../../hooks/useScript';
 
 const ScriptComponent = () => {
   const { loading, error } = useScript(

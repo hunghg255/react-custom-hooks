@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useUpdateEffect } from '../../utils/useUpdateEffect';
+import { useUpdateEffect } from '../../hooks/useUpdateEffect';
 
 export default function UpdateEffectComponent() {
   const [count, setCount] = useState(10);

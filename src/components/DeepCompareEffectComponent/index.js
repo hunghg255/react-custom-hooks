@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { useDeepCompareEffect } from '../../utils/useDeepCompareEffect';
+import { useDeepCompareEffect } from '../../hooks/useDeepCompareEffect';
 
 const DeepCompareEffectComponent = () => {
   const [age, setAge] = useState(0);

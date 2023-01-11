@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useDebugInformation } from '../../utils/useDebugInformation';
-import { useToggle } from '../../utils/useToggle';
+import { useDebugInformation } from '../../hooks/useDebugInformation';
+import { useToggle } from '../../hooks/useToggle';
 
 const ChildComponent = (props) => {
   const info = useDebugInformation('ChildComponent', props);

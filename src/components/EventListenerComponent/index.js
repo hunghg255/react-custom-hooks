@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useEventListener } from '../../utils/useEventListener';
+import { useEventListener } from '../../hooks/useEventListener';
 
 const EventListenerComponent = () => {
   const [key, setKey] = useState('');

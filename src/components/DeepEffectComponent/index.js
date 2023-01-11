@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useDeepEffect } from '../../utils/useDeepEffect';
+import { useDeepEffect } from '../../hooks/useDeepEffect';
 
 export default function DeepEffectComponent() {
   const [obj, setObj] = useState({ a: 1 });

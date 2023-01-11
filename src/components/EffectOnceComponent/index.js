@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useEffectOnce } from '../../utils/useEffectOnce';
+import { useEffectOnce } from '../../hooks/useEffectOnce';
 
 const EffectOnceComponent = () => {
   const [count, setCount] = useState(0);

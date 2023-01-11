@@ -1,4 +1,4 @@
-import { useArray } from '../../utils/useArray';
+import { useArray } from '../../hooks/useArray';
 
 export default function ArrayComponent() {
   const { array, set, push, remove, filter, update, clear } = useArray([

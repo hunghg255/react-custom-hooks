@@ -1,5 +1,5 @@
-import { useRenderCount } from '../../utils/useRenderCount';
-import { useToggle } from '../../utils/useToggle';
+import { useRenderCount } from '../../hooks/useRenderCount';
+import { useToggle } from '../../hooks/useToggle';
 
 const RenderCountComponent = () => {
   const [boolean, toggle] = useToggle(false);

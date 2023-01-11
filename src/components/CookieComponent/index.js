@@ -1,4 +1,4 @@
-import { useCookie } from '../../utils/useCookie';
+import { useCookie } from '../../hooks/useCookie';
 
 const CookieComponent = () => {
   const [value, update, remove] = useCookie('name', 'John');

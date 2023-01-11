@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { useOnScreen } from '../../utils/useOnScreen';
+import { useOnScreen } from '../../hooks/useOnScreen';
 
 const OnScreenComponent = () => {
   const refHeaderTwo = useRef();

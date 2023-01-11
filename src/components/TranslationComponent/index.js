@@ -1,4 +1,4 @@
-import { useTranslation } from '../../utils/useTranslation';
+import { useTranslation } from '../../hooks/useTranslation';
 
 const TranslationComponent = () => {
   const { language, setLanguage, setFallbackLanguage, t } = useTranslation();

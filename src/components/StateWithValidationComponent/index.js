@@ -1,4 +1,4 @@
-import { useStateWithValidation } from '../../utils/useStateWithValidation';
+import { useStateWithValidation } from '../../hooks/useStateWithValidation';
 
 const StateWithValidationComponent = () => {
   const [username, setUsername, isValid] = useStateWithValidation(

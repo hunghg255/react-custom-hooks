@@ -1,4 +1,4 @@
-import { useOnlineStatus } from '../../utils/useOnlineStatus';
+import { useOnlineStatus } from '../../hooks/useOnlineStatus';
 
 const OnlineStatusComponent = () => {
   const online = useOnlineStatus();

@@ -1,7 +1,7 @@
 import {
   useSessionStorage,
   useLocalStorage,
-} from '../../utils/useSessionStorage';
+} from '../../hooks/useSessionStorage';
 
 const StorageComponent = () => {
   const [name, setName, removeName] = useSessionStorage('name', 'Kyle');

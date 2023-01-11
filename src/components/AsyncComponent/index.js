@@ -1,4 +1,4 @@
-import { useAsync } from '../../utils/useAsync';
+import { useAsync } from '../../hooks/useAsync';
 
 const AsyncComponent = () => {
   const { loading, error, value } = useAsync(() => {
