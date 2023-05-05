@@ -31,6 +31,7 @@ import LongPressComponent from './components/LongPressComponent';
 import DeepEffectComponent from './components/DeepEffectComponent';
 
 import './app.css';
+import GitHubCorners from '@uiw/react-github-corners';
 
 function App() {
   return (
@@ -197,6 +198,8 @@ function App() {
 
       <h3>useDeepEffect</h3>
       <DeepEffectComponent />
+
+      <GitHubCorners position='right' href='https://github.com/hunghg255/react-custom-hooks' />
     </div>
   );
 }
