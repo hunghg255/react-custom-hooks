@@ -31,7 +31,7 @@ import LongPressComponent from './components/LongPressComponent';
 import DeepEffectComponent from './components/DeepEffectComponent';
 
 import './app.css';
-import GitHubCorners from '@uiw/react-github-corners';
+import GitHubCorners from 'react-gh-corners';
 
 function App() {
   return (
